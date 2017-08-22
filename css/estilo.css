@@ -1,0 +1,380 @@
+/********************************* ASPECTOS GENERALES *************************************/
+body{
+	background-color: #02010a;
+	font-family: 'Dancing Script', cursive;
+	clear: both;
+}
+
+#ima{
+	box-shadow:2px 2px 2px  #02010a;
+	-moz-box-shadow:2px 2px 2px  #02010a;
+	-wekit-box-shadow:2px 2px 2px  #02010a;
+}
+
+.contenido{
+	width:100%;
+	max-width:900px;
+	margin:auto;
+	overflow:hidden;
+}
+
+/*************************************CABECERA****************************/
+.cabecera{
+	background-color:  #5b7989;
+	margin: auto;
+	padding: 7%;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+
+#logo p{
+	float: left;
+	color:  white;
+	text-shadow:2px 2px  #02010a;
+	font-size: 1.5em;
+	line-height: 5px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+#menu{
+	float:right;
+}
+
+#menu a {
+	color: white;
+	font-size: 0.8em;
+	text-decoration:none;
+	text-shadow:1px 1px  #02010a;
+}
+
+/**************************************IMAGEN CENTRAL*******************************/
+
+.centro{
+	background-color:  #82c3a6;
+	padding: 3%;
+}
+
+.centro img{
+	width:100%;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
+/***********************************COLUMNAS***************************************/
+.conten-columna{
+	background-color:  #d5c75f;
+	border:solid 1px;
+	box-sizing: border-box;
+	display:flex;
+	padding: 2%;
+}
+
+.conten-columna img{
+	box-shadow:2px 2px  #82c3a6;
+}
+.colum-izquierda{
+	width: 50%;
+	float: left;
+	padding: 5%;
+}
+.colum-izquierda img{
+	width:100%;
+	margin: auto;
+	display: block;
+}
+
+.colum-izquierda img:hover{
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+}
+.colum-derecha{
+	width: 50%;
+	float: right;
+	padding: 5%;
+}
+
+.colum-derecha img{
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+.colum-derecha img:hover{
+	transform: translate(20px, 5px);
+}
+span{
+	margin: auto;
+	color: black;
+	text-align: center;
+	display: block;
+	font-size: 1.5em;
+}
+
+/*******************************************************************************FOOTER************/
+footer{
+	clear: both;
+	background-color:  #C6d5c5;
+	box-sizing: border-box;
+	display: flex;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius:10px;
+}
+.contenedor-footer{
+	width: 100%;
+	display:flex;
+	padding: 1%;
+	margin: 5px;
+
+
+
+}
+/***************************************************/
+
+#contacto a, ul, li {
+	width: 100%;
+	list-style: none;
+	margin: auto;
+	float:right;
+	text-decoration: none;		
+}
+
+#contacto p{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#contacto{
+	width: 25%;
+	color:darkorchid;
+	font-size:12px;
+	box-shadow:2px 2px  #02010a;
+	padding: 2%;
+
+}
+
+/*****************************************/
+#termino a, ul, li {
+	width: 100%;
+	list-style: none;
+	margin: auto;
+	text-decoration: none;		
+}
+
+#termino p{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-size: 1em;
+	color: black;
+	text-align: justify;
+}
+#termino h1{
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+#termino{
+	width: 25%;
+	color:darkorchid;
+	font-size:12px;
+	box-shadow:2px 2px  #02010a;
+	padding: 2%;
+}
+/*****************************************************/
+#redes a, ul, li {
+	width: 100%;
+	list-style: none;
+	margin: auto;
+	text-decoration: none;		
+}
+
+#redes p{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#redes{
+	width: 25%;
+	color:darkorchid;
+	font-size:12px;
+	box-shadow:2px 2px  #02010a;
+	padding: 2%;
+}
+#redes img{
+	float: left;
+	display: flex;
+	width: 40px;
+
+}
+
+/********************************************/
+#derechos a, ul, li {
+	width: 100%;
+	list-style: none;
+	margin: auto;
+	text-decoration: none;		
+}
+
+#derechos p{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#derechos{
+	width: 25%;
+	color:darkorchid;
+	font-size:2em;
+	box-shadow:2px 2px  #02010a;
+	padding: 2%;
+}
+
+/**************************************ESTILOS DE LAS PÁGINAS RETRATO Y PAISAJES ***********************************
+**********************************************/
+
+.galeria{
+	width: 100%;
+
+}
+.galeria img{
+	box-shadow:2px 2px 2px  #02010a;
+	-moz-box-shadow:2px 2px 2px  #02010a;
+	-wekit-box-shadow:2px 2px 2px  #02010a;
+	padding: 1%;
+	box-sizing: border-box;
+	display: block;
+	background-color:#d5c75f;
+}
+.ima-ga{
+	width: 33.33%;
+	float: left;
+}
+
+#ima1{
+filter: blur(10px);
+}
+#ima2, #ima4, #ima6{
+filter: grayscale(100%);
+}
+
+#ima3{
+filter: sepia(90%);
+}
+/*********************************** ADACTATIVAS*******************************/
+/*MOBILE*/
+@media only screen  
+and (min-width : 320px)and (max-width:640px){  
+	.contenido{
+		width: 100%;
+	}
+	/****************************CABECERA***************************/
+	.cabecera{
+		clear: both;
+		width: 87%;
+		box-sizing:content-box;
+		display:inline-block;
+	}
+#logo{
+	clear: both;
+	width: 100%;
+	font-size: 14px;
+	}
+	#menu{
+	clear: both;
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+	}
+	/***********************CENTRO DE LA PAGINA***********/
+	.centro{
+		clear: both;
+		width: 95%;
+	}
+	
+	.centro img{
+		width: 100%;
+	}
+	/************************COLUMNAS IMG***************/
+	.conten-columna{
+		clear: both;
+		width: 100%;
+		box-sizing: border-box;
+		display:inline-block;
+	}
+.colum-izquierda{
+		width: 90%;
+	
+	}
+
+.colum-derecha{
+	width: 90%;
+	}
+	
+	/***************PIE DE PÁGINA**********************/
+
+	.contenedor-footer{
+		clear: both;
+		width: 100%;
+		box-sizing: border-box;
+		display:block;
+		
+	}	
+
+	#contacto{
+		width: 100%;
+		display: flex;
+	}
+	
+	
+	#termino{
+		width: 100%;
+		display: flex;
+	}
+	
+	#redes{
+		width: 100%;
+		display: flex;
+	}
+	
+	#derechos{
+		width: 100%;
+		display: flex;
+	}
+	
+/**********************************IMAGENES PAISAJES*********************/
+
+	.galeria{
+		clear: both;
+		width: 100%;
+		box-sizing: border-box;
+		display:block;
+	}	
+	#ima1,#ima2,#ima3,#ima4,#ima5,#ima6 {
+		width: 100%;
+	}
+}
+
+/********************************************ANIMACION DE LA PAGINA*********************************************/
+body {
+  animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-name: slidein;
+ -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 150%;
+    width: 300%
+  }
+
+  to {
+    margin-top: -5%;
+    width: 100%;
+  }
+}
